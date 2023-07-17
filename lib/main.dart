@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import 'animatedContainer.dart';
 import 'call_back_shortcuts.dart';
 import 'expansion_panel.dart';
 
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-        home:ExpansionPanelListExample()
+        home:AnimatedContainerExampleApp()
 
     );
   }
