@@ -4,6 +4,7 @@ import 'package:widget_of_the_week/page_view.dart';
 import 'animatedContainer.dart';
 import 'call_back_shortcuts.dart';
 import 'expansion_panel.dart';
+import 'fade_transition.dart';
 
 void main() {
   runApp(const MyApp());
@@ -21,7 +22,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-        home:PageViewExampleApp()
+        home:FadeTransitionExampleApp()
 
     );
   }
